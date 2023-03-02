@@ -24,4 +24,4 @@ for i in range(0, n): #Loops for the amount there is
   word = input() #input the word
   if len(word) > 10: #if the word is smaller then 10 then it will not be abriviated
     print(word[0] + str((len(word) - 2)) + word[len(word)-1]) #prints out the words first and last letter and the length
-  else: print(word)
+  else: print(word) #prints the word without and edits if under 10 letters

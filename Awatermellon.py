@@ -16,9 +16,9 @@ Output
 Print YES, if the boys can divide the watermelon into two parts, each of them weighing even number of kilos; and NO in the opposite case.
 """
 
-weight = int(input())
+weight = int(input()) #asks for the number of kilos
 
-if weight % 2 == 0 and weight > 3:
+if weight % 2 == 0 and weight > 3: #if the weight is greater then 3 and it is an even number it prints yes
   print("YES")
-else: print("NO")
+else: print("NO") 
 

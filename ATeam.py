@@ -18,3 +18,13 @@ on the solution, the third number shows Tonya's view. The numbers on the lines a
 Output
 Print a single integer — the number of problems the friends will implement on the contest.
 """
+
+l=[] #makes a list called L
+for i in range(0, int(input())): #asks for an input. The ammount entered will be how many times it will loop
+    j = input().split() #splits everything into its own string via the space
+    m=0 #ammount of problems they will solve
+    
+    if j.count('1') >= 2: #how many 1s there are. if its bigger then 2 it adds 1 to M
+        m+=1 #adds one to m
+        l.append(m) #adds it to the list of problems they will do
+print(sum(l)) #adds all the problems they will do to get a total amount.
