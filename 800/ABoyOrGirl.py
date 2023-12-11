@@ -23,8 +23,6 @@ NameList = []
 for Char in Name:
   if Char not in NameList:
     NameList.append(Char)
-  else:
-    continue
 
 if len(NameList) % 2 == 0:
   print("CHAT WITH HER!")
